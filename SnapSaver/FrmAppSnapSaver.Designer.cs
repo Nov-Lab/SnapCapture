@@ -1,4 +1,6 @@
-﻿
+﻿// @(h)FrmAppSnapSaver.Designer.cs ver 0.00 ( '23.04.18 Nov-Lab ) 作成開始(自動生成)
+
+
 namespace SnapSaver
 {
     partial class FrmAppSnapSaver

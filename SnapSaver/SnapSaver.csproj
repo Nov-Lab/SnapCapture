@@ -75,5 +75,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NovLab.Base\NovLab.Base\NovLab.Base.csproj">
+      <Project>{e803285c-9e66-4dab-8867-bcf2867898cb}</Project>
+      <Name>NovLab.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
