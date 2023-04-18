@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{172540A3-1038-4337-AA8B-FE32525D6677}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SnapSaver</RootNamespace>
-    <AssemblyName>SnapSaver</AssemblyName>
+    <RootNamespace>SnapCapture</RootNamespace>
+    <AssemblyName>SnapCapture</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -44,17 +44,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppBase.cs" />
-    <Compile Include="FrmAppSnapSaver.cs">
+    <Compile Include="NLSCAppBase.cs" />
+    <Compile Include="FrmNLSCApp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAppSnapSaver.Designer.cs">
-      <DependentUpon>FrmAppSnapSaver.cs</DependentUpon>
+    <Compile Include="FrmNLSCApp.Designer.cs">
+      <DependentUpon>FrmNLSCApp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="DlgNLSCConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgNLSCConfig.Designer.cs">
+      <DependentUpon>DlgNLSCConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NLSCProgram.cs" />
+    <Compile Include="NLSCWin32API.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAppSnapSaver.resx">
-      <DependentUpon>FrmAppSnapSaver.cs</DependentUpon>
+    <Compile Include="ZZZDraft_SnapCapture.cs" />
+    <EmbeddedResource Include="FrmNLSCApp.resx">
+      <DependentUpon>FrmNLSCApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgNLSCConfig.resx">
+      <DependentUpon>DlgNLSCConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -64,6 +75,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
