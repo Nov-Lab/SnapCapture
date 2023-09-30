@@ -1,4 +1,9 @@
-﻿// 23/04/18
+﻿// @(h)FrmNLSCApp.cs ver 0.00 ( '23.04.18 Nov-Lab ) 作成開始
+// @(h)FrmNLSCApp.cs ver 1.01 ( '23.09.14 Nov-Lab ) 初版完成
+// @(h)FrmNLSCApp.cs ver 1.01a( '23.09.30 Nov-Lab ) その他  ：コメント整理
+
+// @(s)
+// 　【SnapCapture・メイン画面】本アプリケーションのメイン画面です。
 
 using System;
 using System.Diagnostics;

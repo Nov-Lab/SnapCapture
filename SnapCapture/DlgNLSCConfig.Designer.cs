@@ -34,7 +34,7 @@ namespace SnapCapture
             this.CboSaveImageFormat = new System.Windows.Forms.ComboBox();
             this.BtnOK = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
-            this.ttlBaseFileName = new System.Windows.Forms.Label();
+            this.TtlBaseFileName = new System.Windows.Forms.Label();
             this.TxtBaseFileName = new System.Windows.Forms.TextBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -79,14 +79,14 @@ namespace SnapCapture
             this.BtnCancel.UseVisualStyleBackColor = true;
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
-            // ttlBaseFileName
+            // TtlBaseFileName
             // 
-            this.ttlBaseFileName.AutoSize = true;
-            this.ttlBaseFileName.Location = new System.Drawing.Point(8, 8);
-            this.ttlBaseFileName.Name = "ttlBaseFileName";
-            this.ttlBaseFileName.Size = new System.Drawing.Size(102, 12);
-            this.ttlBaseFileName.TabIndex = 0;
-            this.ttlBaseFileName.Text = "ベースファイル名(&B)：";
+            this.TtlBaseFileName.AutoSize = true;
+            this.TtlBaseFileName.Location = new System.Drawing.Point(8, 8);
+            this.TtlBaseFileName.Name = "TtlBaseFileName";
+            this.TtlBaseFileName.Size = new System.Drawing.Size(102, 12);
+            this.TtlBaseFileName.TabIndex = 0;
+            this.TtlBaseFileName.Text = "ベースファイル名(&B)：";
             // 
             // TxtBaseFileName
             // 
@@ -109,7 +109,7 @@ namespace SnapCapture
             this.CancelButton = this.BtnCancel;
             this.ClientSize = new System.Drawing.Size(394, 105);
             this.Controls.Add(this.TxtBaseFileName);
-            this.Controls.Add(this.ttlBaseFileName);
+            this.Controls.Add(this.TtlBaseFileName);
             this.Controls.Add(this.BtnCancel);
             this.Controls.Add(this.BtnOK);
             this.Controls.Add(this.CboSaveImageFormat);
@@ -134,7 +134,7 @@ namespace SnapCapture
         private System.Windows.Forms.ComboBox CboSaveImageFormat;
         private System.Windows.Forms.Button BtnOK;
         private System.Windows.Forms.Button BtnCancel;
-        private System.Windows.Forms.Label ttlBaseFileName;
+        private System.Windows.Forms.Label TtlBaseFileName;
         private System.Windows.Forms.TextBox TxtBaseFileName;
         private System.Windows.Forms.ErrorProvider errorProvider1;
     }

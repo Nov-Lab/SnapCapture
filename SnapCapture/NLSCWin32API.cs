@@ -1,5 +1,6 @@
-﻿// @(h)NLSCWin32API.cs ver 0.00 ( '23.04.25 Nov-Lab ) FrmNLSSApp.cs から分離して作成開始
-// @(h)NLSCWin32API.cs ver 0.51 ( '23.04.25 Nov-Lab ) ベータ版完成
+﻿// @(h)NLSCWin32API.cs ver 0.00 ( '23.04.25 Nov-Lab ) FrmNLSCApp.cs から分離して作成開始
+// @(h)NLSCWin32API.cs ver 1.01 ( '23.04.25 Nov-Lab ) 初版完成
+// @(h)NLSCWin32API.cs ver 1.01a( '23.09.30 Nov-Lab ) その他  ：コメント整理
 
 // @(s)
 // 　【Win32API定義】本アプリケーションで使用する Win32 API の関数・定数・構造体などを定義します。

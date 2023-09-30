@@ -1,4 +1,9 @@
-﻿// 23/04/19
+﻿// @(h)DlgNLSCConfig.cs ver 0.00 ( '23.04.19 Nov-Lab ) 作成開始
+// @(h)DlgNLSCConfig.cs ver 1.01 ( '23.09.14 Nov-Lab ) 初版完成
+// @(h)DlgNLSCConfig.cs ver 1.01a( '23.09.30 Nov-Lab ) その他  ：コメント整理
+
+// @(s)
+// 　【SnapCapture・コンフィグ設定ダイアログ】コンフィグ設定を調整するダイアログです。
 
 using System;
 using System.Diagnostics;
@@ -7,7 +12,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
@@ -16,9 +20,11 @@ using NovLab;
 
 namespace SnapCapture
 {
+    //====================================================================================================
     /// <summary>
-    /// 【コンフィグ設定ダイアログ】
+    /// 【SnapCapture・コンフィグ設定ダイアログ】コンフィグ設定を調整するダイアログです。
     /// </summary>
+    //====================================================================================================
     public partial class DlgNLSCConfig : Form
     {
         //====================================================================================================
